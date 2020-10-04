@@ -1,0 +1,163 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f3f3f3;
+}
+
+.active {
+  background: #365599;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.nav-link {
+  font-size: 18px;
+}
+
+.social i {
+  color: #365599;
+  margin-right: -0.2rem;
+}
+
+.social-media {
+  margin-left: 50rem;
+}
+
+/* Showcase */
+
+#showcase {
+  color: #fff;
+  background: #333;
+  padding: 2rem;
+  position: relative;
+}
+
+#showcase:before {
+  content: "";
+  background: url("../img/featured.jpg") no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+#showcase .showcase-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+#showcase .showcase-content {
+  z-index: 1;
+}
+
+#showcase .showcase-content p {
+  margin-bottom: 1rem;
+}
+
+/* Article cards */
+
+.article {
+  margin: 20px 200px;
+  text-align: center;
+}
+
+.card-text {
+  text-align: left;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.card {
+  border-radius: 5px;
+}
+
+/* About page */
+
+.aside {
+  margin-top: 1rem;
+  margin-right: 6rem;
+  justify-content: center;
+}
+
+.aside .card-body {
+  background-color: #365599;
+  color: #fff;
+}
+
+/* Login Page */
+
+.form-container {
+  background: #fff;
+  opacity: 0.8;
+  border-radius: 10px;
+  margin-top: 2.7rem;
+  margin-bottom: 2.7rem;
+  font-size: 1.1rem;
+
+  max-width: 600px;
+}
+
+.form-container img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+.btn-login {
+  width: 20%;
+  margin-top: -4rem;
+}
+
+.rem {
+  margin-bottom: 3rem;
+}
+
+.register {
+  font-size: 0.9rem;
+  text-align: center;
+}
+/* Footer  */
+
+#main-footer {
+  background: #43435ac7;
+  color: #fff;
+  padding-top: 1rem;
+}
+
+#main-footer img {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+#main-footer a {
+  color: #fff;
+}
+
+#main-footer .footer-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5rem;
+}
+
+#main-footer .footer-container > *:last-child {
+  background: #4e4e4e;
+  opacity: 0.55;
+  grid-column: 1 / span 3;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 0.75rem;
+  border-radius: 0.2rem;
+}
+
+#main-footer .footer-container input[type="email"] {
+  width: 90%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#main-footer .footer-container input[type="submit"] {
+  width: 90%;
+}
